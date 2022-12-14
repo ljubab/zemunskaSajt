@@ -8,6 +8,10 @@
     font-size: 1.2rem;
 }
 
+body {
+    background-color: #e2e8f0 !important;
+}
+
 .flex {
     display: flex;
 }
@@ -40,6 +44,7 @@
 
 #nav-bar > ul > li {
     padding: 5px;
+    background-color: white;
 }
 
 #nav-bar > ul > li > a{
