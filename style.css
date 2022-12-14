@@ -60,3 +60,31 @@ body {
 ul, li {
     padding: 0 !important;
 }
+
+#news-section {
+    display: grid;
+    margin-top: 1rem;
+    column-gap: 3rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.news {
+    border-radius: 15%;
+    background-color: #164e63;
+    color: white;
+    padding: 30px;
+    text-overflow: ellipsis; 
+    display: block;
+    overflow: hidden; 
+}
+
+.news > h4 {
+    text-align: center;
+}
+
+.news-description {
+    font-size: 0.9rem;
+    height: 300px;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}
