@@ -51,3 +51,7 @@
     background-color: #e5e7eb;
     transition: ease-out 0.2s;
 }
+
+ul, li {
+    padding: 0 !important;
+}
