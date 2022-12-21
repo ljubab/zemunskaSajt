@@ -88,3 +88,32 @@ ul, li {
     overflow: hidden; 
     text-overflow: ellipsis;
 }
+
+#footer {
+    background-color: #164e63 !important;
+    width: 100%;
+
+    margin-top: 5rem;
+    color: white;
+
+    font-size: 0.4rem;
+}
+
+.social-media {
+    padding-top: 0.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.social-media > a > img {
+    width: 2rem;
+    height: 2rem;
+    color: white;
+}
+
+#copyright {
+    margin-top: 0.6rem;
+    text-align: center;
+}
